@@ -58,9 +58,13 @@ load-nvmrc
 # Startship setup
 # -------------------------------------------------------------------
 eval "$(starship init zsh)"
+
+export EDITOR=nvim
+
 export VOLTA_HOME="$HOME/.volta"
 export LVIM_HOME="$HOME/.local/bin"
 export GOPATH=$HOME/go
+
 export PATH="$LVIM_HOME:$VOLTA_HOME/bin:$GOROOT/bin:$GOPATH/bin:$PATH"
 
 # pnpm
@@ -72,6 +76,15 @@ esac
 # pnpm end
 
 # -------------------------------------------------------------------
+# Aliases
+# -------------------------------------------------------------------
+alias ll='exa -lbF --git --icons'
+alias la='exa -labF --git --icons'
+alias cat='bat'
+alias nvim='env TERM=wezterm nvim'
+
+# -------------------------------------------------------------------
 # Setup zoxide
 # -------------------------------------------------------------------
 eval "$(zoxide init zsh)"
+
