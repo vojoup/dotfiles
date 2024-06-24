@@ -8,6 +8,10 @@ return {
 	font = wezterm.font("BlexMono Nerd Font Propo", { weight = "Medium" }),
 	macos_window_background_blur = 30,
 
+	set_environment_variables = {
+		BAT_THEME = "Catppuccin Mocha",
+	},
+
 	window_background_opacity = 1.0,
 	window_decorations = "RESIZE",
 	keys = {
