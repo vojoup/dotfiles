@@ -29,6 +29,11 @@ return {
 			mods = "CTRL|SHIFT",
 			action = wezterm.action.DisableDefaultAssignment,
 		},
+		{
+			key = "g",
+			mods = "CMD",
+			action = wezterm.action.DisableDefaultAssignment,
+		},
 	},
 	mouse_bindings = {
 		-- Ctrl-click will open the link under the mouse cursor
