@@ -21,6 +21,7 @@ plugins=(
   brew
   node
   npm
+  zsh-yarn-completions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -67,7 +68,9 @@ export GOPATH=$HOME/go
 
 export PATH="$LVIM_HOME:$VOLTA_HOME/bin:$GOROOT/bin:$GOPATH/bin:$PATH"
 
+# -------------------------------------------------------------------
 # pnpm
+# -------------------------------------------------------------------
 export PNPM_HOME="/Users/vojtechoupicky/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
