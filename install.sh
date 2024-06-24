@@ -2,8 +2,6 @@
 
 echo "Installing dotfiles"
 
-source install/link.sh
-
 if [ "$(uname)" == "Darwin" ]; then
 	echo "Running on OSX"
 
