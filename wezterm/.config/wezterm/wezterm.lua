@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 local act = wezterm.action
 
 return {
-	color_scheme = "Catppuccin Mocha",
+	color_scheme = "Tokyo Night",
 	enable_tab_bar = false,
 	font_size = 15.0,
 	font = wezterm.font("BlexMono Nerd Font Propo", { weight = "Medium" }),
